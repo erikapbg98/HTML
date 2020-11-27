@@ -54,3 +54,28 @@ height: 80px;
     height: 70px;
     background-color: black;
 }
+#whats{
+    width: 60px;
+    height: 60px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    position: fixed;
+    background-color: green;
+    bottom: 10px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 2;
+    color: white;
+    z-index: 5;
+}
+#anu{
+    width: 30%;
+    height: 300px;
+    border-radius: 20px;
+    background-color: greenyellow;
+    position: absolute;
+    top: 250px;
+    left: 35%;
+    -webkit-box-shadow: -3px 2px 15px 15px #EA7EFF;
+     box-shadow:  -3px 2px 15px 15px #EA7EFF;
+}
