@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+    overflow: hidden;
+    background: url("../img/fondo.jpg");
+
+}
+@keyframes animacion{
+    0%{
+        background-position: 0% 0%;
+    }
+    50%{
+        background-position: 100% 5%;
+    }
+    100%{
+        background-position: 1% 50%;
+    }
+}
+#btn{
+    display: block;
+    position: fixed;
+    top: 49%;
+    left: calc(50% - 75px);
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    border: 1px solid #1d1d1d;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    line-height: 3;
+    font-weight: bold;
+    border-radius: 20px;
+    transition: 1s ease-in-all;
+}
+#btn:hover{
+    background-color: white;
+    border: 1px solid #cccccc;
+    color: black;
+    border-radius: 0;
+    transform: scale(2);
+}
+#mercurio{
+    display: block;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    animation: aniMer 30s infinite ease-out;
+}
+#venus{
+    display: block;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation: aniMer 30s infinite ease-out;
+}
+@keyframes aniMer{
+    from{
+        top: 0px;
+        left: 0px;
+        transform: rotate(0deg);
+    }
+    to{
+        top: 100%;
+        left: 100%;
+        transform: rotate(360deg);
+    }
+}
