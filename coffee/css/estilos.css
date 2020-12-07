@@ -1,95 +1,204 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
-body{
+
+body {
     background-color: whitesmoke;
     font-family: 'Roboto', sans-serif;
 }
-h1,h2,h3,h5,h6{
+
+h1,
+h2,
+h3,
+h5,
+h6 {
     font-family: 'Noto Sans JP', sans-serif;
 }
-h1{
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
     font-size: 2rem;
 }
-h2{
-    font-size: 2rem;
-}
-h3{
+
+h5 {
     font-size: 1.5rem;
 }
-header{
+
+header {
     position: fixed;
     height: 70px;
     border-bottom: 1px solid #c1c1c1;
     width: 100%;
+    background-color: white;
 }
-header > #logo{
+
+header>#logo {
     padding-top: 15px;
     float: left;
     margin-left: 5%;
 }
-header > #logo >h2{
-    
+
+header>#logo>h2 {
+
     font-size: 1.5rem;
 }
-header > nav{
+
+header>nav {
     font-size: 1rem;
     float: right;
-    width: 40%; 
-  
+    width: 40%;
+    background-color: white;
     padding-top: 25px;
 }
-header nav > ul > li{
+
+header nav>ul>li {
     float: left;
     width: 20%;
     list-style: none;
 }
-header nav > ul > li>a{
-  text-decoration: none;
-  color: #1d1d1d;
-  text-transform: uppercase;
-  font-weight: 400;
-  transition: 1s ease-in all;
-}
-header nav > ul > li>a:hover{
-    text-decoration: underline;
-  }
 
-  section#main{
-      min-height: 500px;
-      margin-top: 70px;
-      width: 100%;
-      float: left;
-  }
-  section#main h1{
-      margin-top: 150px;
-      margin-left: 100px;
-  }
-  section#main h2{
-    
-    
+header nav>ul>li>a {
+    text-decoration: none;
+    color: #1d1d1d;
+    text-transform: uppercase;
+    font-weight: 400;
+    transition: 1s ease-in all;
+}
+
+header nav>ul>li>a:hover {
+    text-decoration: underline;
+}
+
+section#main {
+    min-height: 500px;
+    margin-top: 70px;
+    width: 100%;
+    float: left;
+}
+
+section#main h1 {
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+section#main h3 {
+
+
     font-weight: lighter;
     margin-left: 100px;
     font-size: 1.3rem;
     width: 50%;
 }
-  .col{
-      width: 50%;
-      float: left;
-  }
-  section#main .bola{
-      width: 500px;
-      height: 500px;
-      border-radius: 50%;
-      background-color: #eee459;
-      float: right;
-      margin-right: -100px;
-  }
-  section#main .bola img{
-    width: 350px;
+
+.col {
+    width: 50%;
+    float: left;
+}
+
+section#main .bola {
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    background-color: #997648;
+    float: right;
+    margin-right: -100px;
+}
+
+section#main .bola img {
+    width: 300px;
+
+    margin-top: 40px;
+    margin-left: -150px;
+    float: right;
+    transform: rotate(-50deg);
+}
+
+#numeros {
+    border-left: 10px solid #443527;
+    width: 100%;
+    height: 300px;
+    margin-top: 20px
+}
+
+#numeros>col:first-child {
+    padding-left: 50px;
+}
+
+#numeros>div>col>h5 {
+    border-bottom: 4px solod #1d1d1d;
+    font-size: 1.5 rem;
+    font-weight: lighter;
+
+}
+
+
+
+#news {
+    padding-left: 100px;
+    width: 100%;
+    min-height: 300px;
     display: block;
-    margin-top: 80px;
-    margin-left: 150px;
-    transform: rotate(-40deg);
+}
+
+#news .columna3 {
+    float: left;
+    width: 33.333%;
+    height: 200px;
+
+}
+
+#news .columna3 a {
+    text-decoration: none;
+    color: #1d1d1d;
+}
+
+#news .columna3 a img {
+    width: 80%;
+    height: 120%;
+display: block;
+}
+
+
+
+
+
+
+#contact h2 {
+    margin-top: 200px;
+
+}
+
+#contact fieldset {
+    border: none;
+    padding: 5px;
+
+}
+
+#contact fieldset label {
+    display: block;
+    width: 100px;
+
+}
+
+#contact fieldset input,
+#contact fieldset textarea {
+    display: block;
+    width: 90%;
+    border: 1px solid #eeeeee;
+    padding: 5px;
+    outline-color: #eeeeee;
+    height: 38px;
+}
+
+#contact fieldset button {
+    width: 150px;
+    height: 38px;
+    padding: 5px;
+    background-color: #c7b499;
+    color: white;
+
 }
