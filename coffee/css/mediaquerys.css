@@ -1,0 +1,49 @@
+@media screen and (min-width: 300px){
+body{
+    background-color: red;
+}
+.col{
+    width: 100%;
+}
+#news .columna3{
+    width: 100%;
+    margin-left: 0%;
+}
+nav{
+    display: none;
+}
+#menu{
+    display: none;
+}
+
+}
+@media screen and(min-width: 768px){
+    body{
+        background-color: green;
+    }
+    nav{
+        display: block;
+    }
+}
+@media screen and (min-width: 992px){
+    body{
+        background-color: whitesmoke;
+    }
+    .col{
+        width: 50%
+    }
+    #news .columna3{
+        width: 25%;
+        margin-left: 8%;
+    }
+    
+    #menu{
+        display: none;
+    }
+    
+    }
+    @media print{
+        header{
+            display: none;
+        }
+    }
